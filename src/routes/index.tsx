@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Play, Search, X, ShieldCheck, Flame, HardHat, HeartPulse, Zap } from "lucide-react";
 import logo from "@/assets/logo.png.asset.json";
 import hero from "@/assets/hero.jpg";
+import { VIDEOS } from "@/lib/videos";
 
 export const Route = createFileRoute("/")({
   head: () => ({
