@@ -106,7 +106,7 @@ function Index() {
       </main>
 
       <footer className="bg-ink py-8 text-center text-sm text-ink-foreground/80">
-        © {new Date().getFullYear()} شركة الأمل للبترول AMAPETCO — إدارة السلامة والصحة المهنية
+        © {new Date().getFullYear()} شركة الأمل للبترول AMAPETCO — إدارة الاتصالات وتكنولوجيا المعلومات
       </footer>
 
       {open && (
