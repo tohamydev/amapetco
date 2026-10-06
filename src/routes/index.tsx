@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Play, Search, X, ShieldCheck, Flame, HardHat, HeartPulse, Zap } from "lucide-react";
 import logo from "@/assets/logo.png.asset.json";
 import hero from "@/assets/hero.jpg";
+import { VIDEOS } from "@/lib/videos";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -18,28 +19,25 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
+const AR: Record<string, string> = {
+  PPE: "معدات الوقاية", "Permit to Work": "تصريح العمل", H2S: "غاز H2S", "Confined Space": "الأماكن المغلقة",
+  "Working at Height": "العمل على الارتفاعات", "Fire Safety": "مكافحة الحريق", "Hot Work": "الأعمال الساخنة",
+  LOTO: "عزل الطاقة", "Process Safety": "سلامة العمليات", "Emergency Response": "الطوارئ والإسعافات",
+  "Driving Safety": "سلامة القيادة", "Lifting Operations": "الرفع الآمن", "Environmental Spills": "التسربات البيئية",
+};
 const CATS = [
   { id: "all", label: "الكل", icon: ShieldCheck },
-  { id: "ppe", label: "معدات الوقاية", icon: HardHat },
-  { id: "fire", label: "مكافحة الحريق", icon: Flame },
-  { id: "aid", label: "الإسعافات الأولية", icon: HeartPulse },
-  { id: "elec", label: "السلامة الكهربائية", icon: Zap },
-];
-
-const VIDEOS = [
-  { id: "4J6U9Vy7-8E", cat: "ppe", title: "أهمية معدات الوقاية الشخصية", dur: "05:12" },
-  { id: "WqMbKgJqvHI", cat: "fire", title: "استخدام طفايات الحريق بشكل صحيح", dur: "04:30" },
-  { id: "ea1RJUOiNfQ", cat: "aid", title: "أساسيات الإسعافات الأولية", dur: "08:45" },
-  { id: "o0T8YXl_Z4I", cat: "elec", title: "مخاطر الكهرباء في مواقع العمل", dur: "06:20" },
-  { id: "1kH4J-Dxf_k", cat: "ppe", title: "العمل على المرتفعات بأمان", dur: "07:05" },
-  { id: "JW5ywU6ZJ0E", cat: "fire", title: "خطة الإخلاء في حالات الطوارئ", dur: "03:58" },
+  ...Array.from(new Set(VIDEOS.map((v) => v.cat))).map((c) => ({
+    id: c, label: AR[c] ?? c,
+    icon: c === "Fire Safety" || c === "Hot Work" ? Flame : c === "Emergency Response" ? HeartPulse : c === "LOTO" ? Zap : HardHat,
+  })),
 ];
 
 function Index() {
   const [cat, setCat] = useState("all");
   const [q, setQ] = useState("");
   const [open, setOpen] = useState<string | null>(null);
-  const list = VIDEOS.filter((v) => (cat === "all" || v.cat === cat) && v.title.includes(q));
+  const list = VIDEOS.filter((v) => (cat === "all" || v.cat === cat) && (v.title + v.topic).toLowerCase().includes(q.toLowerCase()));
 
   return (
     <div className="min-h-screen">
@@ -95,7 +93,7 @@ function Index() {
                 <div className="absolute inset-0 grid place-items-center bg-ink/30 opacity-0 transition group-hover:opacity-100">
                   <span className="grid h-14 w-14 place-items-center rounded-full bg-flame text-flame-foreground"><Play className="h-6 w-6 fill-current" /></span>
                 </div>
-                <span className="absolute bottom-2 left-2 rounded-md bg-ink/80 px-2 py-0.5 text-xs text-ink-foreground">{v.dur}</span>
+                <span className="absolute bottom-2 left-2 rounded-md bg-ink/80 px-2 py-0.5 text-xs text-ink-foreground">{v.lang === "Arabic" ? "عربي" : "English"}</span>
               </div>
               <div className="p-4">
                 <p className="text-xs font-semibold text-accent-foreground">{CATS.find((c) => c.id === v.cat)?.label}</p>
