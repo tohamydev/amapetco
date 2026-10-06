@@ -75,7 +75,7 @@ function Index() {
             <img src={logo.url} alt="شعار الأمل للبترول" className="h-12 w-auto shrink-0" />
             <div className="hidden min-w-0 sm:block">
               <p className="truncate font-display text-lg font-extrabold">الأمل للبترول</p>
-              <p className="truncate text-xs text-muted-foreground">أكاديمية السلامة والصحة المهنية</p>
+              <p className="truncate text-xs text-muted-foreground">مكتبة السلامة والصحة المهنية</p>
             </div>
           </div>
           <div className="flex shrink-0 items-center gap-2 text-sm font-bold">
@@ -92,7 +92,7 @@ function Index() {
           <span className="inline-flex items-center gap-2 rounded-full bg-flame px-4 py-1 text-sm font-semibold text-flame-foreground">
             <ShieldCheck className="h-4 w-4" /> شركة الأمل للبترول · AMAPETCO
           </span>
-          <h1 className="mt-5 max-w-3xl text-4xl font-black leading-tight md:text-6xl">أكاديمية الأمل للسلامة والصحة المهنية</h1>
+          <h1 className="mt-5 max-w-3xl text-4xl font-black leading-tight md:text-6xl">مكتبة الأمل للبترول للسلامة والصحة المهنية</h1>
           <p className="mt-3 max-w-xl text-lg opacity-85">في شركة الأمل للبترول، سلامة العاملين هي أساس كل إنجاز. برنامج تدريبي متكامل لرفع الوعي وحماية فريقنا في مواقع العمل.</p>
           <div className="mt-6 max-w-md">
             <div className="mb-2 flex justify-between text-sm font-semibold"><span>تقدمك</span><span>{p.done.length}/{ORDER.length} · {pct}%</span></div>
