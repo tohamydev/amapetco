@@ -90,10 +90,10 @@ function Index() {
         <div className="absolute inset-0 -z-10 bg-hero-overlay" />
         <div className="mx-auto max-w-7xl px-5 pb-14 pt-28 text-ink-foreground">
           <span className="inline-flex items-center gap-2 rounded-full bg-flame px-4 py-1 text-sm font-semibold text-flame-foreground">
-            <ShieldCheck className="h-4 w-4" /> تعلّم بدون تسجيل دخول
+            <ShieldCheck className="h-4 w-4" /> شركة الأمل للبترول · AMAPETCO
           </span>
-          <h1 className="mt-5 max-w-3xl text-4xl font-black leading-tight md:text-6xl">رحلتك في السلامة المهنية</h1>
-          <p className="mt-3 max-w-xl text-lg opacity-85">درس ورا درس، اجمع النقاط وحافظ على سلسلة أيامك.</p>
+          <h1 className="mt-5 max-w-3xl text-4xl font-black leading-tight md:text-6xl">أكاديمية الأمل للسلامة والصحة المهنية</h1>
+          <p className="mt-3 max-w-xl text-lg opacity-85">في شركة الأمل للبترول، سلامة العاملين هي أساس كل إنجاز. برنامج تدريبي متكامل لرفع الوعي وحماية فريقنا في مواقع العمل.</p>
           <div className="mt-6 max-w-md">
             <div className="mb-2 flex justify-between text-sm font-semibold"><span>تقدمك</span><span>{p.done.length}/{ORDER.length} · {pct}%</span></div>
             <div className="h-3 overflow-hidden rounded-full bg-ink-foreground/20"><div className="h-full rounded-full bg-flame transition-all duration-700" style={{ width: `${pct}%` }} /></div>
