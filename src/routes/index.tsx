@@ -69,19 +69,28 @@ function Index() {
       </section>
 
       <main id="videos" className="mx-auto max-w-7xl px-5 py-14">
-        <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
-          <div className="flex flex-wrap gap-2">
-            {CATS.map((c) => (
-              <button key={c.id} onClick={() => setCat(c.id)}
-                className={`inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-semibold transition ${cat === c.id ? "border-primary bg-primary text-primary-foreground" : "bg-card hover:bg-secondary"}`}>
-                <c.icon className="h-4 w-4" /> {c.label}
-              </button>
-            ))}
-          </div>
-          <div className="relative md:w-72">
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+          <h2 className="text-2xl font-extrabold">الفيديوهات <span className="text-base font-semibold text-muted-foreground">({list.length})</span></h2>
+          <div className="relative sm:w-80">
             <Search className="absolute right-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
             <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="ابحث عن فيديو..."
-              className="w-full rounded-full border bg-card py-2 pl-4 pr-10 text-sm outline-none focus:ring-2 focus:ring-ring" />
+              className="w-full rounded-full border bg-card py-2.5 pl-4 pr-10 text-sm outline-none focus:ring-2 focus:ring-ring" />
+          </div>
+        </div>
+        <div className="mt-5 -mx-5 overflow-x-auto px-5 pb-2 [scrollbar-width:thin]">
+          <div className="flex w-max gap-2">
+            {CATS.map((c) => {
+              const n = c.id === "all" ? VIDEOS.length : VIDEOS.filter((v) => v.cat === c.id).length;
+              const on = cat === c.id;
+              return (
+                <button key={c.id} onClick={() => setCat(c.id)}
+                  className={`inline-flex shrink-0 items-center gap-2 whitespace-nowrap rounded-full border py-1.5 pl-1.5 pr-3.5 text-sm font-semibold transition ${on ? "border-primary bg-primary text-primary-foreground shadow-card" : "bg-card hover:border-primary/40 hover:bg-secondary"}`}>
+                  <c.icon className="h-4 w-4 shrink-0" />
+                  {c.label}
+                  <span className={`grid min-w-6 place-items-center rounded-full px-1.5 text-xs ${on ? "bg-primary-foreground/20" : "bg-muted text-muted-foreground"}`}>{n}</span>
+                </button>
+              );
+            })}
           </div>
         </div>
 
