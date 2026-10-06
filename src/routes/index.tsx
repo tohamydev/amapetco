@@ -93,7 +93,7 @@ function Index() {
                 <div className="absolute inset-0 grid place-items-center bg-ink/30 opacity-0 transition group-hover:opacity-100">
                   <span className="grid h-14 w-14 place-items-center rounded-full bg-flame text-flame-foreground"><Play className="h-6 w-6 fill-current" /></span>
                 </div>
-                <span className="absolute bottom-2 left-2 rounded-md bg-ink/80 px-2 py-0.5 text-xs text-ink-foreground">{v.dur}</span>
+                <span className="absolute bottom-2 left-2 rounded-md bg-ink/80 px-2 py-0.5 text-xs text-ink-foreground">{v.lang === "Arabic" ? "عربي" : "English"}</span>
               </div>
               <div className="p-4">
                 <p className="text-xs font-semibold text-accent-foreground">{CATS.find((c) => c.id === v.cat)?.label}</p>
