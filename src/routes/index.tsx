@@ -18,28 +18,25 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
+const AR: Record<string, string> = {
+  PPE: "معدات الوقاية", "Permit to Work": "تصريح العمل", H2S: "غاز H2S", "Confined Space": "الأماكن المغلقة",
+  "Working at Height": "العمل على الارتفاعات", "Fire Safety": "مكافحة الحريق", "Hot Work": "الأعمال الساخنة",
+  LOTO: "عزل الطاقة", "Process Safety": "سلامة العمليات", "Emergency Response": "الطوارئ والإسعافات",
+  "Driving Safety": "سلامة القيادة", "Lifting Operations": "الرفع الآمن", "Environmental Spills": "التسربات البيئية",
+};
 const CATS = [
   { id: "all", label: "الكل", icon: ShieldCheck },
-  { id: "ppe", label: "معدات الوقاية", icon: HardHat },
-  { id: "fire", label: "مكافحة الحريق", icon: Flame },
-  { id: "aid", label: "الإسعافات الأولية", icon: HeartPulse },
-  { id: "elec", label: "السلامة الكهربائية", icon: Zap },
-];
-
-const VIDEOS = [
-  { id: "4J6U9Vy7-8E", cat: "ppe", title: "أهمية معدات الوقاية الشخصية", dur: "05:12" },
-  { id: "WqMbKgJqvHI", cat: "fire", title: "استخدام طفايات الحريق بشكل صحيح", dur: "04:30" },
-  { id: "ea1RJUOiNfQ", cat: "aid", title: "أساسيات الإسعافات الأولية", dur: "08:45" },
-  { id: "o0T8YXl_Z4I", cat: "elec", title: "مخاطر الكهرباء في مواقع العمل", dur: "06:20" },
-  { id: "1kH4J-Dxf_k", cat: "ppe", title: "العمل على المرتفعات بأمان", dur: "07:05" },
-  { id: "JW5ywU6ZJ0E", cat: "fire", title: "خطة الإخلاء في حالات الطوارئ", dur: "03:58" },
+  ...Array.from(new Set(VIDEOS.map((v) => v.cat))).map((c) => ({
+    id: c, label: AR[c] ?? c,
+    icon: c === "Fire Safety" || c === "Hot Work" ? Flame : c === "Emergency Response" ? HeartPulse : c === "LOTO" ? Zap : HardHat,
+  })),
 ];
 
 function Index() {
   const [cat, setCat] = useState("all");
   const [q, setQ] = useState("");
   const [open, setOpen] = useState<string | null>(null);
-  const list = VIDEOS.filter((v) => (cat === "all" || v.cat === cat) && v.title.includes(q));
+  const list = VIDEOS.filter((v) => (cat === "all" || v.cat === cat) && (v.title + v.topic).toLowerCase().includes(q.toLowerCase()));
 
   return (
     <div className="min-h-screen">
