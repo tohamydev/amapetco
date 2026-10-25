@@ -1,6 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import { Play, Search, X, ShieldCheck, Check, Lock, Star, Trophy, Map, LayoutGrid, Flame, HardHat, HeartPulse, Zap } from "lucide-react";
+import { Play, Search, X, ShieldCheck, Check, Lock, Star, Trophy, Map, LayoutGrid, Flame, HardHat, HeartPulse, Zap, Pin } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { AlAmalMedia } from "@/components/al-amal-media";
 import logo from "@/assets/logo.png.asset.json";
 import hero from "@/assets/hero.jpg";
 import { VIDEOS } from "@/lib/videos";
@@ -41,7 +43,7 @@ const ORDER = UNITS.flatMap((u) => u.items.map((v) => v.id));
 const OFFSETS = [0, 48, 72, 48, 0, -48, -72, -48];
 
 function Index() {
-  const [tab, setTab] = useState<"path" | "lib">("path");
+  const [tab, setTab] = useState<"media" | "path" | "lib">("media");
   const [cat, setCat] = useState("all");
   const [q, setQ] = useState("");
   const [open, setOpen] = useState<string | null>(null);
@@ -83,6 +85,15 @@ function Index() {
             <span className="inline-flex items-center gap-1 rounded-full bg-secondary px-3 py-1.5 text-secondary-foreground"><Star className="h-4 w-4" />{p.xp} XP</span>
           </div>
         </div>
+        <nav aria-label="أقسام المكتبة" className="border-t">
+          <div className="mx-auto flex max-w-7xl gap-1 overflow-x-auto px-5 py-2">
+            {([["media", "Al Amal Media", Pin], ["path", "مسار التعلم", Map], ["lib", "المكتبة", LayoutGrid]] as const).map(([id, label, Icon]) => (
+              <Button key={id} onClick={() => setTab(id)} variant={tab === id ? "default" : "ghost"} aria-pressed={tab === id} className="shrink-0 rounded-lg font-bold">
+                <Icon />{label}
+              </Button>
+            ))}
+          </div>
+        </nav>
       </header>
 
       <section className="relative isolate overflow-hidden">
@@ -107,15 +118,7 @@ function Index() {
       </section>
 
       <main className="mx-auto max-w-7xl px-5 py-10">
-        <div className="mx-auto mb-8 flex w-fit gap-1 rounded-full border bg-card p-1">
-          {([["path", "مسار التعلم", Map], ["lib", "المكتبة", LayoutGrid]] as const).map(([id, l, I]) => (
-            <button key={id} onClick={() => setTab(id)} className={`inline-flex items-center gap-2 rounded-full px-5 py-2 text-sm font-bold transition ${tab === id ? "bg-primary text-primary-foreground" : "text-muted-foreground hover:text-foreground"}`}>
-              <I className="h-4 w-4" />{l}
-            </button>
-          ))}
-        </div>
-
-        {tab === "path" ? (
+        {tab === "media" ? <AlAmalMedia /> : tab === "path" ? (
           <div className="mx-auto max-w-xl space-y-10">
             {UNITS.map((u, ui) => {
               const doneN = u.items.filter((v) => p.done.includes(v.id)).length;

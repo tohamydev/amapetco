@@ -8,3 +8,5 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Keep uploaded company media in the AlAmalMedia component and serve binaries through asset pointers, so media remains separate from learning progress.
