@@ -1,35 +1,11 @@
 import { FileText, ExternalLink, Download, Pin } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import video from "@/assets/al-amal-media.mp4.asset.json";
-import guide from "@/assets/safety-a-to-z.pdf.asset.json";
-import videoCover from "@/assets/amal-video-cover.jpg.asset.json";
-import guideCover from "@/assets/safety-cover.jpg.asset.json";
-import reportingVideo from "@/assets/reporting-safety.mp4.asset.json";
-import reportingCover from "@/assets/reporting-safety-cover.jpg.asset.json";
-import incidentVideo from "@/assets/incident-awareness.mp4.asset.json";
-import incidentCover from "@/assets/incident-awareness-cover.jpg.asset.json";
-import coolingVideo from "@/assets/air-conditioner-safety.mp4.asset.json";
-import coolingCover from "@/assets/air-conditioner-safety-cover.jpg.asset.json";
-import androidImage from "@/assets/android-security.jpeg.asset.json";
-import newsImage from "@/assets/al-amal-news.jpeg.asset.json";
-import pressureImage from "@/assets/reporting-pressure.jpeg.asset.json";
-import heightImage from "@/assets/reporting-height.jpeg.asset.json";
-import hazardsImage from "@/assets/reporting-hazards.jpeg.asset.json";
 
-const companyVideos = [
-  { asset: video, cover: videoCover, title: "سلامة العمليات" },
-  { asset: reportingVideo, cover: reportingCover, title: "الإبلاغ عن المخاطر" },
-  { asset: incidentVideo, cover: incidentCover, title: "التوعية بالحوادث والإصابات" },
-  { asset: coolingVideo, cover: coolingCover, title: "السلامة عند استخدام المكيفات" },
-];
+import content from "../../public/content.json";
 
-const companyImages = [
-  { asset: hazardsImage, title: "بلاغك يفرق — الإبلاغ عن المخاطر" },
-  { asset: heightImage, title: "بلاغك يفرق — العمل على الارتفاعات" },
-  { asset: pressureImage, title: "بلاغك يفرق — مراقبة الضغط" },
-  { asset: androidImage, title: "حماية التطبيقات المالية على أندرويد" },
-  { asset: newsImage, title: "الأمل للبترول في الأخبار" },
-];
+const { companyVideos, companyImages } = content;
+const guide = content.guide.asset;
+const guideCover = content.guide.cover;
 
 export function AlAmalMedia() {
   return (

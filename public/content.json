@@ -1,0 +1,440 @@
+{
+  "version": 1,
+  "baseUrl": "https://amapetco.lovable.app",
+  "companyVideos": [
+    {
+      "asset": {
+        "version": 1,
+        "asset_id": "ae1acd4b-de07-428a-8410-a7802aff6bdf",
+        "project_id": "0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01",
+        "url": "/__l5e/assets-v1/ae1acd4b-de07-428a-8410-a7802aff6bdf/al-amal-media.mp4",
+        "r2_key": "a/v1/0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01/ae1acd4b-de07-428a-8410-a7802aff6bdf/al-amal-media.mp4",
+        "original_filename": "al-amal-media.mp4",
+        "size": 18612509,
+        "content_type": "video/mp4",
+        "created_at": "2026-10-25T09:08:35Z"
+      },
+      "cover": {
+        "version": 1,
+        "asset_id": "62a4206f-68a1-48c1-831a-e17a13ec7b37",
+        "project_id": "0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01",
+        "url": "/__l5e/assets-v1/62a4206f-68a1-48c1-831a-e17a13ec7b37/amal-video-cover.jpg",
+        "r2_key": "a/v1/0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01/62a4206f-68a1-48c1-831a-e17a13ec7b37/amal-video-cover.jpg",
+        "original_filename": "amal-video-cover.jpg",
+        "size": 19798,
+        "content_type": "image/jpeg",
+        "created_at": "2026-10-25T09:08:39Z"
+      },
+      "title": "سلامة العمليات"
+    },
+    {
+      "asset": {
+        "version": 1,
+        "asset_id": "611829fe-4c1b-40a9-b054-de56c02bd9e3",
+        "project_id": "0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01",
+        "url": "/__l5e/assets-v1/611829fe-4c1b-40a9-b054-de56c02bd9e3/reporting-safety.mp4",
+        "r2_key": "a/v1/0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01/611829fe-4c1b-40a9-b054-de56c02bd9e3/reporting-safety.mp4",
+        "original_filename": "reporting-safety.mp4",
+        "size": 8657904,
+        "content_type": "video/mp4",
+        "created_at": "2026-10-25T17:47:00Z"
+      },
+      "cover": {
+        "version": 1,
+        "asset_id": "46a60733-909f-4551-a5f2-3b7337ee1ae6",
+        "project_id": "0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01",
+        "url": "/__l5e/assets-v1/46a60733-909f-4551-a5f2-3b7337ee1ae6/reporting-safety-cover.jpg",
+        "r2_key": "a/v1/0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01/46a60733-909f-4551-a5f2-3b7337ee1ae6/reporting-safety-cover.jpg",
+        "original_filename": "reporting-safety-cover.jpg",
+        "size": 30615,
+        "content_type": "image/jpeg",
+        "created_at": "2026-10-25T17:46:58Z"
+      },
+      "title": "الإبلاغ عن المخاطر"
+    },
+    {
+      "asset": {
+        "version": 1,
+        "asset_id": "07ba91ab-0173-4239-bb8c-1ef448814778",
+        "project_id": "0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01",
+        "url": "/__l5e/assets-v1/07ba91ab-0173-4239-bb8c-1ef448814778/incident-awareness.mp4",
+        "r2_key": "a/v1/0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01/07ba91ab-0173-4239-bb8c-1ef448814778/incident-awareness.mp4",
+        "original_filename": "incident-awareness.mp4",
+        "size": 11749572,
+        "content_type": "video/mp4",
+        "created_at": "2026-10-25T17:47:00Z"
+      },
+      "cover": {
+        "version": 1,
+        "asset_id": "bd3bd53e-88ab-426c-9458-c8c2c918f5bc",
+        "project_id": "0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01",
+        "url": "/__l5e/assets-v1/bd3bd53e-88ab-426c-9458-c8c2c918f5bc/incident-awareness-cover.jpg",
+        "r2_key": "a/v1/0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01/bd3bd53e-88ab-426c-9458-c8c2c918f5bc/incident-awareness-cover.jpg",
+        "original_filename": "incident-awareness-cover.jpg",
+        "size": 56721,
+        "content_type": "image/jpeg",
+        "created_at": "2026-10-25T17:46:58Z"
+      },
+      "title": "التوعية بالحوادث والإصابات"
+    },
+    {
+      "asset": {
+        "version": 1,
+        "asset_id": "13151c03-262a-46b2-93f6-8ef48d01bafc",
+        "project_id": "0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01",
+        "url": "/__l5e/assets-v1/13151c03-262a-46b2-93f6-8ef48d01bafc/air-conditioner-safety.mp4",
+        "r2_key": "a/v1/0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01/13151c03-262a-46b2-93f6-8ef48d01bafc/air-conditioner-safety.mp4",
+        "original_filename": "air-conditioner-safety.mp4",
+        "size": 10296151,
+        "content_type": "video/mp4",
+        "created_at": "2026-10-25T17:47:00Z"
+      },
+      "cover": {
+        "version": 1,
+        "asset_id": "51a7a17d-a6d8-4b50-a5d3-d05fa4e82ac5",
+        "project_id": "0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01",
+        "url": "/__l5e/assets-v1/51a7a17d-a6d8-4b50-a5d3-d05fa4e82ac5/air-conditioner-safety-cover.jpg",
+        "r2_key": "a/v1/0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01/51a7a17d-a6d8-4b50-a5d3-d05fa4e82ac5/air-conditioner-safety-cover.jpg",
+        "original_filename": "air-conditioner-safety-cover.jpg",
+        "size": 18651,
+        "content_type": "image/jpeg",
+        "created_at": "2026-10-25T17:46:58Z"
+      },
+      "title": "السلامة عند استخدام المكيفات"
+    }
+  ],
+  "companyImages": [
+    {
+      "asset": {
+        "version": 1,
+        "asset_id": "ded5786f-dc5f-4691-9572-24435a1199f6",
+        "project_id": "0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01",
+        "url": "/__l5e/assets-v1/ded5786f-dc5f-4691-9572-24435a1199f6/reporting-hazards.jpeg",
+        "r2_key": "a/v1/0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01/ded5786f-dc5f-4691-9572-24435a1199f6/reporting-hazards.jpeg",
+        "original_filename": "reporting-hazards.jpeg",
+        "size": 156629,
+        "content_type": "image/jpeg",
+        "created_at": "2026-10-25T17:47:05Z"
+      },
+      "title": "بلاغك يفرق — الإبلاغ عن المخاطر"
+    },
+    {
+      "asset": {
+        "version": 1,
+        "asset_id": "c0ccac99-d666-4638-b8ed-737d0178f56c",
+        "project_id": "0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01",
+        "url": "/__l5e/assets-v1/c0ccac99-d666-4638-b8ed-737d0178f56c/reporting-height.jpeg",
+        "r2_key": "a/v1/0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01/c0ccac99-d666-4638-b8ed-737d0178f56c/reporting-height.jpeg",
+        "original_filename": "reporting-height.jpeg",
+        "size": 168217,
+        "content_type": "image/jpeg",
+        "created_at": "2026-10-25T17:47:05Z"
+      },
+      "title": "بلاغك يفرق — العمل على الارتفاعات"
+    },
+    {
+      "asset": {
+        "version": 1,
+        "asset_id": "44484dbf-aee9-4174-953c-cc7a0beeacb7",
+        "project_id": "0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01",
+        "url": "/__l5e/assets-v1/44484dbf-aee9-4174-953c-cc7a0beeacb7/reporting-pressure.jpeg",
+        "r2_key": "a/v1/0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01/44484dbf-aee9-4174-953c-cc7a0beeacb7/reporting-pressure.jpeg",
+        "original_filename": "reporting-pressure.jpeg",
+        "size": 168167,
+        "content_type": "image/jpeg",
+        "created_at": "2026-10-25T17:47:04Z"
+      },
+      "title": "بلاغك يفرق — مراقبة الضغط"
+    },
+    {
+      "asset": {
+        "version": 1,
+        "asset_id": "3f50d4ef-5596-4934-ad3d-33fa2f995f40",
+        "project_id": "0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01",
+        "url": "/__l5e/assets-v1/3f50d4ef-5596-4934-ad3d-33fa2f995f40/android-security.jpeg",
+        "r2_key": "a/v1/0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01/3f50d4ef-5596-4934-ad3d-33fa2f995f40/android-security.jpeg",
+        "original_filename": "android-security.jpeg",
+        "size": 233307,
+        "content_type": "image/jpeg",
+        "created_at": "2026-10-25T17:47:04Z"
+      },
+      "title": "حماية التطبيقات المالية على أندرويد"
+    },
+    {
+      "asset": {
+        "version": 1,
+        "asset_id": "85d3073a-785c-4080-925e-b77c807298fe",
+        "project_id": "0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01",
+        "url": "/__l5e/assets-v1/85d3073a-785c-4080-925e-b77c807298fe/al-amal-news.jpeg",
+        "r2_key": "a/v1/0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01/85d3073a-785c-4080-925e-b77c807298fe/al-amal-news.jpeg",
+        "original_filename": "al-amal-news.jpeg",
+        "size": 140523,
+        "content_type": "image/jpeg",
+        "created_at": "2026-10-25T17:47:04Z"
+      },
+      "title": "الأمل للبترول في الأخبار"
+    }
+  ],
+  "guide": {
+    "asset": {
+      "version": 1,
+      "asset_id": "1e979df5-5502-48a9-952f-9258228112fb",
+      "project_id": "0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01",
+      "url": "/__l5e/assets-v1/1e979df5-5502-48a9-952f-9258228112fb/safety-a-to-z.pdf",
+      "r2_key": "a/v1/0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01/1e979df5-5502-48a9-952f-9258228112fb/safety-a-to-z.pdf",
+      "original_filename": "safety-a-to-z.pdf",
+      "size": 8865444,
+      "content_type": "application/pdf",
+      "created_at": "2026-10-25T09:08:34Z"
+    },
+    "cover": {
+      "version": 1,
+      "asset_id": "8953aad9-28da-4a4f-9ad0-400e469ab3f8",
+      "project_id": "0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01",
+      "url": "/__l5e/assets-v1/8953aad9-28da-4a4f-9ad0-400e469ab3f8/safety-cover.jpg",
+      "r2_key": "a/v1/0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01/8953aad9-28da-4a4f-9ad0-400e469ab3f8/safety-cover.jpg",
+      "original_filename": "safety-cover.jpg",
+      "size": 147348,
+      "content_type": "image/jpeg",
+      "created_at": "2026-10-25T09:08:39Z"
+    },
+    "title": "A–Z of Safety",
+    "pages": 27,
+    "language": "English"
+  },
+  "learningVideos": [
+    {
+      "id": "q1rP1o94p5o",
+      "title": "Personal Protective Equipment Oil and Gas Training - PPE",
+      "topic": "معدات الحماية الشخصية",
+      "cat": "PPE",
+      "lang": "English",
+      "source": "Petrolessons",
+      "url": "https://www.youtube.com/watch?v=q1rP1o94p5o",
+      "embedUrl": "https://www.youtube.com/embed/q1rP1o94p5o",
+      "thumbnailUrl": "https://i.ytimg.com/vi/q1rP1o94p5o/hqdefault.jpg"
+    },
+    {
+      "id": "hMluHEUZ6yw",
+      "title": "Aramco Safety Orientation Arabic version1 xvid",
+      "topic": "توجيه سلامة عام / PPE",
+      "cat": "PPE",
+      "lang": "Arabic",
+      "source": "Laid Kaoudja (Aramco orientation)",
+      "url": "https://www.youtube.com/watch?v=hMluHEUZ6yw",
+      "embedUrl": "https://www.youtube.com/embed/hMluHEUZ6yw",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hMluHEUZ6yw/hqdefault.jpg"
+    },
+    {
+      "id": "nPF31svbBjQ",
+      "title": "Work Authorisation (ARABIC)",
+      "topic": "تصريح العمل / تفويض العمل",
+      "cat": "Permit to Work",
+      "lang": "Arabic",
+      "source": "IOGP",
+      "url": "https://www.youtube.com/watch?v=nPF31svbBjQ",
+      "embedUrl": "https://www.youtube.com/embed/nPF31svbBjQ",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nPF31svbBjQ/hqdefault.jpg"
+    },
+    {
+      "id": "dUS6h5mHSuo",
+      "title": "H2S Awareness, Arabic - غاز كبريتيد الهايدروجين",
+      "topic": "غاز كبريتيد الهيدروجين",
+      "cat": "H2S",
+      "lang": "Arabic",
+      "source": "KOC Official - شركة نفط الكويت",
+      "url": "https://www.youtube.com/watch?v=dUS6h5mHSuo",
+      "embedUrl": "https://www.youtube.com/embed/dUS6h5mHSuo",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dUS6h5mHSuo/hqdefault.jpg"
+    },
+    {
+      "id": "jh2HWT8gPeY",
+      "title": "Silent Killer: Hydrogen Sulfide Release in Odessa, Texas",
+      "topic": "H2S / تحقيق حوادث",
+      "cat": "H2S",
+      "lang": "English",
+      "source": "USCSB",
+      "url": "https://www.youtube.com/watch?v=jh2HWT8gPeY",
+      "embedUrl": "https://www.youtube.com/embed/jh2HWT8gPeY",
+      "thumbnailUrl": "https://i.ytimg.com/vi/jh2HWT8gPeY/hqdefault.jpg"
+    },
+    {
+      "id": "TxS-RnEk158",
+      "title": "Confined Space (ARABIC)",
+      "topic": "الأماكن المغلقة",
+      "cat": "Confined Space",
+      "lang": "Arabic",
+      "source": "IOGP",
+      "url": "https://www.youtube.com/watch?v=TxS-RnEk158",
+      "embedUrl": "https://www.youtube.com/embed/TxS-RnEk158",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TxS-RnEk158/hqdefault.jpg"
+    },
+    {
+      "id": "Gj2O6bTLbEo",
+      "title": "Confined Space Entry in Oil and Gas Industry",
+      "topic": "دخول الأماكن المغلقة",
+      "cat": "Confined Space",
+      "lang": "English",
+      "source": "TRADESAFE",
+      "url": "https://www.youtube.com/watch?v=Gj2O6bTLbEo",
+      "embedUrl": "https://www.youtube.com/embed/Gj2O6bTLbEo",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Gj2O6bTLbEo/hqdefault.jpg"
+    },
+    {
+      "id": "YWgbcKuA8v0",
+      "title": "Working at Height (ARABIC)",
+      "topic": "العمل على الارتفاعات",
+      "cat": "Working at Height",
+      "lang": "Arabic",
+      "source": "IOGP",
+      "url": "https://www.youtube.com/watch?v=YWgbcKuA8v0",
+      "embedUrl": "https://www.youtube.com/embed/YWgbcKuA8v0",
+      "thumbnailUrl": "https://i.ytimg.com/vi/YWgbcKuA8v0/hqdefault.jpg"
+    },
+    {
+      "id": "spRc7kYE88U",
+      "title": "أهم أنظمة وشبكات مكافحة الحرائق Firefighting",
+      "topic": "أنظمة مكافحة الحريق",
+      "cat": "Fire Safety",
+      "lang": "Arabic",
+      "source": "MCP Engineering Academy",
+      "url": "https://www.youtube.com/watch?v=spRc7kYE88U",
+      "embedUrl": "https://www.youtube.com/embed/spRc7kYE88U",
+      "thumbnailUrl": "https://i.ytimg.com/vi/spRc7kYE88U/hqdefault.jpg"
+    },
+    {
+      "id": "ReYsPKwVy64",
+      "title": "Terminal Failure: Fire at ITC",
+      "topic": "حريق منشأة نفطية / طوارئ",
+      "cat": "Fire Safety",
+      "lang": "English",
+      "source": "USCSB",
+      "url": "https://www.youtube.com/watch?v=ReYsPKwVy64",
+      "embedUrl": "https://www.youtube.com/embed/ReYsPKwVy64",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ReYsPKwVy64/hqdefault.jpg"
+    },
+    {
+      "id": "TNVYgn8UUBY",
+      "title": "Hot Work (ARABIC)",
+      "topic": "الأعمال الساخنة",
+      "cat": "Hot Work",
+      "lang": "Arabic",
+      "source": "IOGP",
+      "url": "https://www.youtube.com/watch?v=TNVYgn8UUBY",
+      "embedUrl": "https://www.youtube.com/embed/TNVYgn8UUBY",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TNVYgn8UUBY/hqdefault.jpg"
+    },
+    {
+      "id": "0ELU0lFzKrc",
+      "title": "Energy Isolation (ARABIC)",
+      "topic": "عزل الطاقة LOTO",
+      "cat": "LOTO",
+      "lang": "Arabic",
+      "source": "IOGP",
+      "url": "https://www.youtube.com/watch?v=0ELU0lFzKrc",
+      "embedUrl": "https://www.youtube.com/embed/0ELU0lFzKrc",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0ELU0lFzKrc/hqdefault.jpg"
+    },
+    {
+      "id": "2YJH5t7OJPc",
+      "title": "Line of fire (ARABIC)",
+      "topic": "خط النار / سلامة العمليات",
+      "cat": "Process Safety",
+      "lang": "Arabic",
+      "source": "IOGP",
+      "url": "https://www.youtube.com/watch?v=2YJH5t7OJPc",
+      "embedUrl": "https://www.youtube.com/embed/2YJH5t7OJPc",
+      "thumbnailUrl": "https://i.ytimg.com/vi/2YJH5t7OJPc/hqdefault.jpg"
+    },
+    {
+      "id": "b3r2cpHDQt8",
+      "title": "10 Life Saving Rules in SAFETY || ADNOC Safety Golden Rules || HSE TRAINER",
+      "topic": "قواعد إنقاذ الحياة أدنوك",
+      "cat": "Process Safety",
+      "lang": "English",
+      "source": "HSE TRAINER",
+      "url": "https://www.youtube.com/watch?v=b3r2cpHDQt8",
+      "embedUrl": "https://www.youtube.com/embed/b3r2cpHDQt8",
+      "thumbnailUrl": "https://i.ytimg.com/vi/b3r2cpHDQt8/hqdefault.jpg"
+    },
+    {
+      "id": "XuJtdQOU_Z4",
+      "title": "CSB Safety Video: Anatomy of a Disaster",
+      "topic": "سلامة العمليات / مصفاة تكساس",
+      "cat": "Process Safety",
+      "lang": "English",
+      "source": "USCSB",
+      "url": "https://www.youtube.com/watch?v=XuJtdQOU_Z4",
+      "embedUrl": "https://www.youtube.com/embed/XuJtdQOU_Z4",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XuJtdQOU_Z4/hqdefault.jpg"
+    },
+    {
+      "id": "1zDcsjHyxr8",
+      "title": "Blowout in Oklahoma",
+      "topic": "انفجار بئر غاز / سلامة الحفر",
+      "cat": "Process Safety",
+      "lang": "English",
+      "source": "USCSB",
+      "url": "https://www.youtube.com/watch?v=1zDcsjHyxr8",
+      "embedUrl": "https://www.youtube.com/embed/1zDcsjHyxr8",
+      "thumbnailUrl": "https://i.ytimg.com/vi/1zDcsjHyxr8/hqdefault.jpg"
+    },
+    {
+      "id": "iMnGRbryRLk",
+      "title": "Inside BOSIET Offshore Training (Fire, Water, First Aid & Rescue)",
+      "topic": "إسعافات أولية / طوارئ بحرية",
+      "cat": "Emergency Response",
+      "lang": "English",
+      "source": "Novikontas",
+      "url": "https://www.youtube.com/watch?v=iMnGRbryRLk",
+      "embedUrl": "https://www.youtube.com/embed/iMnGRbryRLk",
+      "thumbnailUrl": "https://i.ytimg.com/vi/iMnGRbryRLk/hqdefault.jpg"
+    },
+    {
+      "id": "kudQqRCp-h8",
+      "title": "Driving (ARABIC)",
+      "topic": "سلامة القيادة",
+      "cat": "Driving Safety",
+      "lang": "Arabic",
+      "source": "IOGP",
+      "url": "https://www.youtube.com/watch?v=kudQqRCp-h8",
+      "embedUrl": "https://www.youtube.com/embed/kudQqRCp-h8",
+      "thumbnailUrl": "https://i.ytimg.com/vi/kudQqRCp-h8/hqdefault.jpg"
+    },
+    {
+      "id": "3JGWMXlaWjA",
+      "title": "Safe Mechanical Lifting (ARABIC)",
+      "topic": "عمليات الرفع الآمن",
+      "cat": "Lifting Operations",
+      "lang": "Arabic",
+      "source": "IOGP",
+      "url": "https://www.youtube.com/watch?v=3JGWMXlaWjA",
+      "embedUrl": "https://www.youtube.com/embed/3JGWMXlaWjA",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3JGWMXlaWjA/hqdefault.jpg"
+    },
+    {
+      "id": "qPnKl59I__8",
+      "title": "Overview of Oil Spill Exercise & Response",
+      "topic": "تسرب نفطي / استجابة بيئية",
+      "cat": "Environmental Spills",
+      "lang": "English",
+      "source": "PHMSA (Pipeline and Hazardous Materials Safety Administration)",
+      "url": "https://www.youtube.com/watch?v=qPnKl59I__8",
+      "embedUrl": "https://www.youtube.com/embed/qPnKl59I__8",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qPnKl59I__8/hqdefault.jpg"
+    }
+  ],
+  "branding": {
+    "logo": {
+      "version": 1,
+      "asset_id": "24992a06-3aee-450e-ae1c-3f7b6c9caff3",
+      "project_id": "0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01",
+      "url": "/__l5e/assets-v1/24992a06-3aee-450e-ae1c-3f7b6c9caff3/logo.png",
+      "r2_key": "a/v1/0abb8e3a-eaf0-4ac7-8310-d4deb6c12b01/24992a06-3aee-450e-ae1c-3f7b6c9caff3/logo.png",
+      "original_filename": "logo.png",
+      "size": 30722,
+      "content_type": "image/png",
+      "created_at": "2026-10-06T03:01:39Z"
+    }
+  }
+}

@@ -10,3 +10,4 @@
 <!-- LOVABLE:END -->
 
 - Keep uploaded company media in the AlAmalMedia component and serve binaries through asset pointers, so media remains separate from learning progress.
+- Use public/content.json as the shared content catalog for company media and learning video links; asset pointers remain the source of CDN file metadata.
